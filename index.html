@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Сайт репресованих</title>
+<!--<link href="../../../xxl2/cfqn htghtcjdfyb]/сайт репресованих/сайт репресованих/index.css" rel="stylesheet" type="text/css"> -->
+<link href="index.css" rel="stylesheet" type="text/css">
+<link href="animbtn.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.4.min.js"></script>
+
+</head>
+
+<body>
+	 <audio src="../main_music.mp3" autoplay loop >
+		Ваш браузер не поддерживает элемент audio.</audio>
+<div class="textmiddle">
+	<p>Впродовж доби Великого терору 1937-38 років в Україні засуджено <span class="numbers">198 918</span> осіб</p><p>Смертної кари через розстріл зазнало <span class="numbers">123 421</span> ув’язнених </p>
+	
+	<div class="anim button-parent">
+	
+	<a href="main/main.html" class="connect btn-2">
+	Дізнатися більше</a>
+
+	 
+	</div>
+	</div>
+	
+	<div class="bottom">
+   
+	<img id="imgOnOff" src="images/on.png" alt="Включити/вимкнути звук" onClick="Mute()" >
+	
+	
+	<p class="textbottom">Для найкращої взаємодії з сайтом використовуйте навушники</p> 
+	
+	<a href="https://www.facebook.com/Repressedukrainians/"><img src="images/fb.png"></a>
+	
+</div>
+
+<script>
+	myVid=document.getElementById("melody");
+imgOnOff=document.getElementById("imgOnOff");
+
+function Mute()
+  {
+	if (myVid.muted) {
+		myVid.muted = false;
+		imgOnOff.src = 'images/on.png';
+		
+	} else {
+		myVid.muted = true;
+		imgOnOff.src = 'images/off.png';
+		
+	}
+  }
+	</script>
+	<script src="index.js"></script>
+</body>
+</html>
