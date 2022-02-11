@@ -2,7 +2,7 @@
 
 # dependencies
 
-/1
 /music
-/main
 main_music.mp3
+/main/music
+main/.vscode

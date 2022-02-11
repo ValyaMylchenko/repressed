@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu:hover{
+	border: 1px solid white;
+}
